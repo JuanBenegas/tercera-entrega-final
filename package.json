@@ -8,11 +8,19 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
-  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanBenegas/tercera-entrega-final.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanBenegas/tercera-entrega-final/issues"
+  },
+  "homepage": "https://github.com/JuanBenegas/tercera-entrega-final#readme",
   "description": ""
 }
