@@ -2,4 +2,21 @@
     .img-fluid{
         max-width: 100px;
     }
+    a{
+        color: white;
+        padding: 5px;
+        margin: 10px;
+        text-decoration: none;
+        &--active{
+            background-color: $blanco;
+        }
+    }
+}
+
+.nav-linnk.active{
+    color: &blanco;
+}
+
+.color-nav{
+    background-color: $oscurito;
 }

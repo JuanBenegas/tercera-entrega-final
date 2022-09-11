@@ -1,0 +1,21 @@
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__img{
+        max-width: 50vh;
+        margin-top: 20px;
+    }
+    &__a{
+        margin: 30px;
+        text-decoration: none;
+        color: $rojo;
+        font-family: $roboto;
+        font-weight: 200;
+        letter-spacing: 2px;
+        padding: 10px;
+        background-color: $gris-claro;
+        border: solid 2px $rojo;
+        border-radius: 30px;
+    }
+}

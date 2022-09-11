@@ -5,6 +5,9 @@
     // border: 1px solid black;
 }
 
+@import './variables/colors';
+@import './variables/fonts';
 
 @import './sections/grid';
 @import './sections/menu-navegacion';
+@import './sections/section-one'
