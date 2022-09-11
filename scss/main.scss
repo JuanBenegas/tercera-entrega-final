@@ -2,12 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    // overflow-y: hidden;
     // border: 1px solid black;
 }
+
+
 
 @import './variables/colors';
 @import './variables/fonts';
 
+.navbar-toggler{
+    background-color: $blanco;
+}
+
 @import './sections/grid';
 @import './sections/menu-navegacion';
-@import './sections/section-one'
+@import './sections/section-one';
+@import './sections/section-two';
