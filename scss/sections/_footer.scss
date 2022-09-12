@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $oscurito;
+    align-items: center;
+    &__h3{
+        color: $blanco;
+        margin: 20px;
+    }
+    &__ul{
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        margin-top: 10px;
+        li{
+            margin-inline: 5px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+            }
+        }
+    }
+    &__h6{
+        color: $blanco;
+        margin: 5px;
+    }
+}
+

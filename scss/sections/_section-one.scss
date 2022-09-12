@@ -10,13 +10,14 @@
     &__a{
         margin: 30px;
         text-decoration: none;
-        color: $rojo;
+        color: $blanco;
         font-family: $roboto;
         font-weight: 200;
         letter-spacing: 2px;
         padding: 10px;
-        background-color: $gris-claro;
+        background-color: $rojo;
         border: solid 2px $rojo;
-        border-radius: 30px;
+        border-radius: 14px;
+        box-shadow: 0 0 7px 3px #9b9ce2;
     }
 }

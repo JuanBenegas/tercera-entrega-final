@@ -1,16 +1,13 @@
-.section-two{
-    background-color: $gris-claro;
+.section-three{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: $gris-claro;
     &__img{
         @extend %img-redondeada;
-    }
-    &__h1{
-        font-family: $roboto;
-        margin: 10px;
     }
     &__p{
         @extend %parrafo-bonito;
     }
 }
+

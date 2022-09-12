@@ -10,6 +10,7 @@
 
 @import './variables/colors';
 @import './variables/fonts';
+@import './variables/extend';
 
 .navbar-toggler{
     background-color: $blanco;
@@ -19,3 +20,5 @@
 @import './sections/menu-navegacion';
 @import './sections/section-one';
 @import './sections/section-two';
+@import './sections/section-three';
+@import './sections/footer';
