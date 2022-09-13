@@ -23,6 +23,24 @@ body {
   letter-spacing: 2px;
   font-family: "Roboto", sans-serif; }
 
+.section-one, .section-two, .section-three, .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.section-one__a {
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: #ef233c;
+  border: solid 2px #ef233c;
+  border-radius: 14px;
+  box-shadow: 0 0 7px 3px #9b9ce2; }
+
 .navbar-toggler {
   background-color: white; }
 
@@ -71,62 +89,56 @@ body {
   .navbar-collapse {
     justify-content: flex-end; } }
 
-.section-one {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .section-one__img {
-    max-width: 80vw;
-    border: 2px solid transparent;
-    margin: 10px; }
-  .section-one__a {
-    margin: 30px;
-    text-decoration: none;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    letter-spacing: 2px;
-    padding: 10px;
-    background-color: #ef233c;
-    border: solid 2px #ef233c;
-    border-radius: 14px;
-    box-shadow: 0 0 7px 3px #9b9ce2; }
-    .section-one__a--card {
-      text-decoration: none;
-      color: white;
-      font-family: "Roboto", sans-serif;
-      background-color: #ef233c;
-      padding: 10px;
-      border-radius: 10px; }
-  .section-one__h1 {
-    margin: 10px;
-    font-family: "Roboto", sans-serif; }
-  .section-one__container {
-    background-color: #8d99ae;
-    margin: 10px;
-    padding: 10px;
-    border: solid 2px #edf2f4;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column; }
-  .section-one__checkbox-container {
-    display: flex;
-    flex-direction: row; }
-  .section-one .card {
-    background-color: #edf2f4;
-    margin-top: 15px; }
-  .section-one .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px; }
+.section-one__img {
+  max-width: 80vw;
+  border: 2px solid transparent;
+  margin: 10px; }
 
-.section-two {
+.section-one__a--card {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: #ef233c;
+  padding: 10px;
+  border-radius: 10px; }
+
+.section-one__h1 {
+  margin: 10px;
+  font-family: "Roboto", sans-serif; }
+
+.section-one__container {
+  background-color: #8d99ae;
+  margin: 10px;
+  padding: 10px;
+  border: solid 2px #edf2f4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; }
+
+.section-one__checkbox-container {
+  display: flex;
+  flex-direction: row; }
+
+.section-one .card {
+  background-color: #edf2f4;
+  margin-top: 15px; }
+
+.section-one .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-inline: 10%;
-  margin-bottom: 20px; }
+  padding: 10px; }
+
+@media (min-width: 1024px) {
+  .section-one__card-container {
+    display: flex; }
+  .section-one__container {
+    margin: 100px; }
+  .card {
+    margin-inline: 10px; } }
+
+.section-two {
+  margin-inline: 10%; }
   .section-two__h1 {
     font-family: "Roboto", sans-serif;
     margin: 10px;
@@ -142,14 +154,14 @@ body {
 
 @media (min-width: 1024px) {
   .section-two {
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: center; }
     .section-two__img {
-      max-width: 40vw; } }
+      max-width: 40vw; }
+    .section-two__card-container {
+      display: flex; } }
 
 .section-three {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-inline: 10%; }
   .section-three__p {
     color: white; }
@@ -159,15 +171,15 @@ body {
 
 @media (min-width: 1024px) {
   .section-three {
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: center; }
     .section-three__img {
-      max-width: 40vw; } }
+      max-width: 40vw; }
+    .section-three__card-container {
+      display: flex; } }
 
 .footer {
-  display: flex;
-  flex-direction: column;
   background-color: #2b2d42;
-  align-items: center;
   margin-top: 20px; }
   .footer__h3 {
     color: white;

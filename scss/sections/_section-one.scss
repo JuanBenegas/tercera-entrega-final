@@ -1,8 +1,5 @@
 .section-one{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // background-color: $gris-claro;
+    @extend %flex-column-center;
     &__img{
         max-width: 80vw;
         border: 2px solid transparent;
@@ -12,17 +9,7 @@
         }
     }
     &__a{
-        margin: 30px;
-        text-decoration: none;
-        color: $blanco;
-        font-family: $roboto;
-        font-weight: 200;
-        letter-spacing: 2px;
-        padding: 10px;
-        background-color: $rojo;
-        border: solid 2px $rojo;
-        border-radius: 14px;
-        box-shadow: 0 0 7px 3px $color-arcilla;
+        @extend %boton-jugar;
         &--card{
             text-decoration: none;
             color: $blanco;
@@ -77,5 +64,15 @@
 
 // Elemtos para pantalla grande
 @media (min-width: 1024px){
-   
+   .section-one{
+    &__card-container{
+        display: flex;
+    }
+    &__container{
+        margin: 100px;
+    }
+   }
+   .card{
+        margin-inline: 10px;
+   }
 }

@@ -13,3 +13,23 @@
     letter-spacing: 2px;
     font-family: $roboto;
 }
+
+%flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+%boton-jugar{
+    margin: 30px;
+    text-decoration: none;
+    color: $blanco;
+    font-family: $roboto;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: $rojo;
+    border: solid 2px $rojo;
+    border-radius: 14px;
+    box-shadow: 0 0 7px 3px $color-arcilla;
+}

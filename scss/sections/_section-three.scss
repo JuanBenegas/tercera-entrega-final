@@ -1,7 +1,5 @@
 .section-three{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend %flex-column-center;
     margin-inline: 10%;
     &__img{
         @extend %img-redondeada;
@@ -28,8 +26,12 @@
 @media (min-width: 1024px){
     .section-three{
         flex-direction: row;
+        justify-content: center;
         &__img{
             max-width: 40vw;
+        }
+        &__card-container{
+            display: flex;
         }
     }
 }

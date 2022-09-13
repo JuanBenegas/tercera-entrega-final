@@ -1,8 +1,6 @@
 .footer{
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column-center;
     background-color: $oscurito;
-    align-items: center;
     margin-top: 20px;
     &__h3{
         color: $blanco;
