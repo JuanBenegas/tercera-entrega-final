@@ -4,7 +4,12 @@
     align-items: center;
     // background-color: $gris-claro;
     &__img{
-        @extend %img-redondeada;
+        max-width: 80vw;
+        border: 2px solid transparent;
+        margin: 10px;
+        &--anonymous{
+            @extend %img-redondeada;
+        }
     }
     &__a{
         margin: 30px;
@@ -48,6 +53,8 @@
         flex-direction: row;
     }
 
+    
+
     .card{
         background-color: $gris-claro;
         margin-top: 15px;
@@ -60,4 +67,15 @@
         padding: 10px;
     }
 
+}
+
+// Elementos ocultos para pantallas chicas
+@media (max-width: 1023px){
+   
+}
+
+
+// Elemtos para pantalla grande
+@media (min-width: 1024px){
+   
 }

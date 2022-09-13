@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-inline: 10%;
+    margin-bottom: 20px;
     &__img{
         @extend %img-redondeada;
     }
@@ -15,9 +17,29 @@
     &__p{
         @extend %parrafo-bonito;
     }
-
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .card{
         background-color: $gris-claro;
         margin-top: 15px;
+    }
+}
+
+// Elementos ocultos para pantallas chicas
+@media (max-width: 1023px){
+   
+}
+
+
+// Elemtos para pantalla grande
+@media (min-width: 1024px){
+    .section-two{
+        flex-direction: row;
+        &__img{
+            max-width: 40vw;
+        }
     }
 }

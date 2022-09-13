@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // background-color: $gris-claro;
+    margin-inline: 10%;
     &__img{
         @extend %img-redondeada;
     }
@@ -18,3 +18,18 @@
     }
 }
 
+// Elementos ocultos para pantallas chicas
+@media (max-width: 1023px){
+   
+}
+
+
+// Elemtos para pantalla grande
+@media (min-width: 1024px){
+    .section-three{
+        flex-direction: row;
+        &__img{
+            max-width: 40vw;
+        }
+    }
+}
