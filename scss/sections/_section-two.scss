@@ -15,4 +15,9 @@
     &__p{
         @extend %parrafo-bonito;
     }
+
+    .card{
+        background-color: $gris-claro;
+        margin-top: 15px;
+    }
 }

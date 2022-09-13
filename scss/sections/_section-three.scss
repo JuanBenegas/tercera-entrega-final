@@ -6,9 +6,15 @@
     &__img{
         @extend %img-redondeada;
     }
+    
     &__p{
         @extend %parrafo-bonito;
         color: $blanco;
+    }
+
+    .card{
+        background-color: $gris-claro;
+        margin-top: 15px;
     }
 }
 
