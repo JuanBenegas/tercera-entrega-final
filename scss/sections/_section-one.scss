@@ -27,15 +27,32 @@
             border-radius: 10px;
         }
     }
+
     &__h1{
         margin: 10px;
         font-family: $roboto;
     }
     
+    &__container{
+        background-color: $gris-medio;
+        margin: 10px;
+        padding: 10px;
+        border: solid 2px $gris-claro;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__checkbox-container{
+        display: flex;
+        flex-direction: row;
+    }
+
     .card{
         background-color: $gris-claro;
         margin-top: 15px;
     }
+
     .container{
         display: flex;
         flex-direction: column;

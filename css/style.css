@@ -93,6 +93,17 @@ body {
   .section-one__h1 {
     margin: 10px;
     font-family: "Roboto", sans-serif; }
+  .section-one__container {
+    background-color: #8d99ae;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px #edf2f4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; }
+  .section-one__checkbox-container {
+    display: flex;
+    flex-direction: row; }
   .section-one .card {
     background-color: #edf2f4;
     margin-top: 15px; }
